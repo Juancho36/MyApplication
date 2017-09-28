@@ -10,18 +10,12 @@
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="280dp"
-        android:layout_height="60dp"
-        android:linksClickable="false"
-        android:text="Juan Manuel Miranda Díaz     Numero de cuenta: 415020309"
-        android:textAppearance="@android:style/TextAppearance.Material.Title"
-        android:textColorLink="@android:color/holo_blue_dark"
-        android:visibility="visible"
-        tools:layout_editor_absoluteY="16dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
 
-
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="220dp"
+        android:layout_height="130dp"
+        app:srcCompat="@android:drawable/btn_dialog"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="30dp" />
 </android.support.constraint.ConstraintLayout>
